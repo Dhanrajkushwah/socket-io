@@ -1,0 +1,44 @@
+/* Toolbar container styling */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px; /* Adjust padding as needed */
+}
+
+/* Toolbar title styling */
+.toolbar-title {
+  font-size: 1.5rem; /* Default font size */
+  font-weight: bold;
+  text-align: center;
+  flex: 1;
+}
+
+/* Toolbar icon styling */
+.example-icon {
+  margin-right: 16px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+  /* Adjust font size for tablets */
+  .toolbar-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Adjust font size for mobile devices */
+  .toolbar-title {
+    font-size: 1rem;
+    text-align: left; /* Align text to the left on smaller screens */
+  }
+
+  .toolbar {
+    padding: 0 8px; /* Reduce padding on smaller screens */
+  }
+
+  .example-icon {
+    margin-right: 8px; /* Adjust icon margin */
+  }
+}
