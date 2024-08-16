@@ -9,7 +9,7 @@
 /* Toolbar title styling */
 .toolbar-title {
   font-size: 1.5rem; /* Default font size */
-  font-weight: bold;
+  font-weight: 400px;
   text-align: center;
   flex: 1;
 }
